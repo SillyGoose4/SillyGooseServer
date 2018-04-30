@@ -25,4 +25,23 @@ public class UserController {
         User user=userService.getUserById(id);
         return "list";
     }
+
+    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    public String Login(User user){
+        System.out.println("==== POST ===========================================");
+        System.out.println("UsreId:  "+user.getUserId()+"\nUserPasswd:  "+user.getUserPasswd());
+        User user2=userService.getUserById(user.getUserId());
+        System.out.println("==== GETT ===========================================");
+        System.out.println(user2.toString());
+        if(user2 != null){
+            if(user2.getUserPasswd() == user.getUserPasswd()){
+                return "/index";
+            }else{
+                return "/fail";
+            }
+        }else{
+            return "/fail";
+        }
+
+    }
 }
