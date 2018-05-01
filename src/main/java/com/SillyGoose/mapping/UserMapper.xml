@@ -5,6 +5,8 @@
     <id column="user_id" jdbcType="BIGINT" property="userId" />
     <result column="user_name" jdbcType="VARCHAR" property="userName" />
     <result column="user_passwd" jdbcType="VARCHAR" property="userPasswd" />
+    <result column="user_phone" jdbcType="VARCHAR" property="userPhone" />
+    <result column="createtime" jdbcType="DATE" property="createtime" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -65,7 +67,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    user_id, user_name, user_passwd
+    user_id, user_name, user_passwd, user_phone, createtime
   </sql>
   <select id="selectByExample" parameterType="com.SillyGoose.bean.UserExample" resultMap="BaseResultMap">
     select
@@ -98,10 +100,8 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.SillyGoose.bean.User">
-    insert into tuser (user_id, user_name, user_passwd
-      )
-    values (#{userId,jdbcType=BIGINT}, #{userName,jdbcType=VARCHAR}, #{userPasswd,jdbcType=VARCHAR}
-      )
+    insert into tuser (user_id, user_name, user_passwd, user_phone, createtime)
+    values (#{userId,jdbcType=BIGINT}, #{userName,jdbcType=VARCHAR}, #{userPasswd,jdbcType=VARCHAR}, #{userPhone,jdbcType=VARCHAR}, #{createtime,jdbcType=DATE})
   </insert>
   <insert id="insertSelective" parameterType="com.SillyGoose.bean.User">
     insert into tuser
@@ -115,6 +115,12 @@
       <if test="userPasswd != null">
         user_passwd,
       </if>
+      <if test="userPhone != null">
+        user_phone,
+      </if>
+      <if test="createtime != null">
+        createtime,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="userId != null">
@@ -125,6 +131,12 @@
       </if>
       <if test="userPasswd != null">
         #{userPasswd,jdbcType=VARCHAR},
+      </if>
+      <if test="userPhone != null">
+        #{userPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
       </if>
     </trim>
   </insert>
@@ -146,6 +158,12 @@
       <if test="record.userPasswd != null">
         user_passwd = #{record.userPasswd,jdbcType=VARCHAR},
       </if>
+      <if test="record.userPhone != null">
+        user_phone = #{record.userPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createtime != null">
+        createtime = #{record.createtime,jdbcType=DATE},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -155,7 +173,9 @@
     update tuser
     set user_id = #{record.userId,jdbcType=BIGINT},
       user_name = #{record.userName,jdbcType=VARCHAR},
-      user_passwd = #{record.userPasswd,jdbcType=VARCHAR}
+      user_passwd = #{record.userPasswd,jdbcType=VARCHAR},
+      user_phone = #{record.userPhone,jdbcType=VARCHAR},
+      createtime = #{record.createtime,jdbcType=DATE}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -169,13 +189,21 @@
       <if test="userPasswd != null">
         user_passwd = #{userPasswd,jdbcType=VARCHAR},
       </if>
+      <if test="userPhone != null">
+        user_phone = #{userPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        createtime = #{createtime,jdbcType=DATE},
+      </if>
     </set>
     where user_id = #{userId,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.SillyGoose.bean.User">
     update tuser
     set user_name = #{userName,jdbcType=VARCHAR},
-      user_passwd = #{userPasswd,jdbcType=VARCHAR}
+      user_passwd = #{userPasswd,jdbcType=VARCHAR},
+      user_phone = #{userPhone,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=DATE}
     where user_id = #{userId,jdbcType=BIGINT}
   </update>
 </mapper>

@@ -21,4 +21,8 @@ public class UserServiceImpl implements UserService {
 
         return userMapper.selectByPrimaryKey(id);
     }
+
+    public int insert(User record) {
+        return userMapper.insert(record);
+    }
 }

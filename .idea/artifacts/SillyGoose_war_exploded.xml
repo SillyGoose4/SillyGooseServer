@@ -35,6 +35,7 @@
           <element id="library" level="project" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.35" />
         </element>
       </element>
       <element id="directory" name="META-INF">
