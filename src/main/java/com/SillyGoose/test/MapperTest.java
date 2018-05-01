@@ -1,5 +1,6 @@
 package com.SillyGoose.test;
 
+import com.SillyGoose.bean.User;
 import com.SillyGoose.dao.UserMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -56,4 +57,8 @@ public class MapperTest {
         }
     }
 
+    @Test
+    public void testInsert(){
+        userMapper.insert(new User(18051072519L,"wjr","wjr.981125","18051072519"));
+    }
 }
