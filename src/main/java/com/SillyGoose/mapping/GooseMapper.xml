@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.SillyGoose.dao.GooseMapper">
+  <resultMap id="BaseResultMap" type="com.SillyGoose.bean.Goose">
+    <id column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="goose_eny" jdbcType="INTEGER" property="gooseEny" />
+    <result column="goose_sun" jdbcType="INTEGER" property="gooseSun" />
+    <result column="goose_snow" jdbcType="INTEGER" property="gooseSnow" />
+    <result column="goose_wind" jdbcType="INTEGER" property="gooseWind" />
+    <result column="goose_star" jdbcType="INTEGER" property="gooseStar" />
+    <result column="goose_devil" jdbcType="INTEGER" property="gooseDevil" />
+    <result column="goose_rain" jdbcType="INTEGER" property="gooseRain" />
+    <result column="album_id" jdbcType="BIGINT" property="albumId" />
+    <result column="goose_map" jdbcType="INTEGER" property="gooseMap" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    user_id, goose_eny, goose_sun, goose_snow, goose_wind, goose_star, goose_devil, goose_rain, 
+    album_id, goose_map
+  </sql>
+  <select id="selectByExample" parameterType="com.SillyGoose.bean.GooseExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tgoose
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tgoose
+    where user_id = #{userId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from tgoose
+    where user_id = #{userId,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.SillyGoose.bean.GooseExample">
+    delete from tgoose
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.SillyGoose.bean.Goose">
+    insert into tgoose (user_id, goose_eny, goose_sun, 
+      goose_snow, goose_wind, goose_star, 
+      goose_devil, goose_rain, album_id, 
+      goose_map)
+    values (#{userId,jdbcType=BIGINT}, #{gooseEny,jdbcType=INTEGER}, #{gooseSun,jdbcType=INTEGER}, 
+      #{gooseSnow,jdbcType=INTEGER}, #{gooseWind,jdbcType=INTEGER}, #{gooseStar,jdbcType=INTEGER}, 
+      #{gooseDevil,jdbcType=INTEGER}, #{gooseRain,jdbcType=INTEGER}, #{albumId,jdbcType=BIGINT}, 
+      #{gooseMap,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.SillyGoose.bean.Goose">
+    insert into tgoose
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="gooseEny != null">
+        goose_eny,
+      </if>
+      <if test="gooseSun != null">
+        goose_sun,
+      </if>
+      <if test="gooseSnow != null">
+        goose_snow,
+      </if>
+      <if test="gooseWind != null">
+        goose_wind,
+      </if>
+      <if test="gooseStar != null">
+        goose_star,
+      </if>
+      <if test="gooseDevil != null">
+        goose_devil,
+      </if>
+      <if test="gooseRain != null">
+        goose_rain,
+      </if>
+      <if test="albumId != null">
+        album_id,
+      </if>
+      <if test="gooseMap != null">
+        goose_map,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="gooseEny != null">
+        #{gooseEny,jdbcType=INTEGER},
+      </if>
+      <if test="gooseSun != null">
+        #{gooseSun,jdbcType=INTEGER},
+      </if>
+      <if test="gooseSnow != null">
+        #{gooseSnow,jdbcType=INTEGER},
+      </if>
+      <if test="gooseWind != null">
+        #{gooseWind,jdbcType=INTEGER},
+      </if>
+      <if test="gooseStar != null">
+        #{gooseStar,jdbcType=INTEGER},
+      </if>
+      <if test="gooseDevil != null">
+        #{gooseDevil,jdbcType=INTEGER},
+      </if>
+      <if test="gooseRain != null">
+        #{gooseRain,jdbcType=INTEGER},
+      </if>
+      <if test="albumId != null">
+        #{albumId,jdbcType=BIGINT},
+      </if>
+      <if test="gooseMap != null">
+        #{gooseMap,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.SillyGoose.bean.GooseExample" resultType="java.lang.Long">
+    select count(*) from tgoose
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update tgoose
+    <set>
+      <if test="record.userId != null">
+        user_id = #{record.userId,jdbcType=BIGINT},
+      </if>
+      <if test="record.gooseEny != null">
+        goose_eny = #{record.gooseEny,jdbcType=INTEGER},
+      </if>
+      <if test="record.gooseSun != null">
+        goose_sun = #{record.gooseSun,jdbcType=INTEGER},
+      </if>
+      <if test="record.gooseSnow != null">
+        goose_snow = #{record.gooseSnow,jdbcType=INTEGER},
+      </if>
+      <if test="record.gooseWind != null">
+        goose_wind = #{record.gooseWind,jdbcType=INTEGER},
+      </if>
+      <if test="record.gooseStar != null">
+        goose_star = #{record.gooseStar,jdbcType=INTEGER},
+      </if>
+      <if test="record.gooseDevil != null">
+        goose_devil = #{record.gooseDevil,jdbcType=INTEGER},
+      </if>
+      <if test="record.gooseRain != null">
+        goose_rain = #{record.gooseRain,jdbcType=INTEGER},
+      </if>
+      <if test="record.albumId != null">
+        album_id = #{record.albumId,jdbcType=BIGINT},
+      </if>
+      <if test="record.gooseMap != null">
+        goose_map = #{record.gooseMap,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update tgoose
+    set user_id = #{record.userId,jdbcType=BIGINT},
+      goose_eny = #{record.gooseEny,jdbcType=INTEGER},
+      goose_sun = #{record.gooseSun,jdbcType=INTEGER},
+      goose_snow = #{record.gooseSnow,jdbcType=INTEGER},
+      goose_wind = #{record.gooseWind,jdbcType=INTEGER},
+      goose_star = #{record.gooseStar,jdbcType=INTEGER},
+      goose_devil = #{record.gooseDevil,jdbcType=INTEGER},
+      goose_rain = #{record.gooseRain,jdbcType=INTEGER},
+      album_id = #{record.albumId,jdbcType=BIGINT},
+      goose_map = #{record.gooseMap,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.SillyGoose.bean.Goose">
+    update tgoose
+    <set>
+      <if test="gooseEny != null">
+        goose_eny = #{gooseEny,jdbcType=INTEGER},
+      </if>
+      <if test="gooseSun != null">
+        goose_sun = #{gooseSun,jdbcType=INTEGER},
+      </if>
+      <if test="gooseSnow != null">
+        goose_snow = #{gooseSnow,jdbcType=INTEGER},
+      </if>
+      <if test="gooseWind != null">
+        goose_wind = #{gooseWind,jdbcType=INTEGER},
+      </if>
+      <if test="gooseStar != null">
+        goose_star = #{gooseStar,jdbcType=INTEGER},
+      </if>
+      <if test="gooseDevil != null">
+        goose_devil = #{gooseDevil,jdbcType=INTEGER},
+      </if>
+      <if test="gooseRain != null">
+        goose_rain = #{gooseRain,jdbcType=INTEGER},
+      </if>
+      <if test="albumId != null">
+        album_id = #{albumId,jdbcType=BIGINT},
+      </if>
+      <if test="gooseMap != null">
+        goose_map = #{gooseMap,jdbcType=INTEGER},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.SillyGoose.bean.Goose">
+    update tgoose
+    set goose_eny = #{gooseEny,jdbcType=INTEGER},
+      goose_sun = #{gooseSun,jdbcType=INTEGER},
+      goose_snow = #{gooseSnow,jdbcType=INTEGER},
+      goose_wind = #{gooseWind,jdbcType=INTEGER},
+      goose_star = #{gooseStar,jdbcType=INTEGER},
+      goose_devil = #{gooseDevil,jdbcType=INTEGER},
+      goose_rain = #{gooseRain,jdbcType=INTEGER},
+      album_id = #{albumId,jdbcType=BIGINT},
+      goose_map = #{gooseMap,jdbcType=INTEGER}
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+</mapper>
