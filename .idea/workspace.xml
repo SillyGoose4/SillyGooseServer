@@ -7,21 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9468380-2f8d-472c-bf9c-695ce8ff41dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_35.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SillyGoose_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SillyGoose_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SillyGoose.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SillyGoose.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/mapping/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/test/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/test/MapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MessageBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MessageBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conf/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/bean/UserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/mapping/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/test/MapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/utils/MBGRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/utils/MBGRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/utils/MessageBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/com/SillyGoose/utils/MessageBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/SillyGoose-0.0.1-SNAPSHOT/WEB-INF/classes/conf/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/UserExample$Criteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/UserExample$Criterion.class" afterDir="false" />
@@ -29,11 +31,15 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/bean/UserExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/mapping/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/service/Impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/test/MapperTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/utils/MBGRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/utils/MBGRun.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/SillyGoose/utils/MessageBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SillyGoose/utils/MessageBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com/SillyGoose/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com/SillyGoose/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com/SillyGoose/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com/SillyGoose/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +54,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="7" />
+            <state relative-caret-position="390">
+              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,32 +75,17 @@
       <file leaf-file-name="MapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/test/MapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-              <folding>
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1465#1466#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#2253#2254#0" expanded="true" />
-                <element signature="e#2278#2279#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="49" column="87" lean-forward="true" selection-start-line="49" selection-start-column="87" selection-end-line="49" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/classes/com/SillyGoose/mapping/UserMapper.xml">
+      <file leaf-file-name="MessageBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MessageBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1980" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -115,8 +106,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="880">
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
                 <element signature="e#251#252#0" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
@@ -148,8 +139,8 @@
       <file leaf-file-name="MBGRun.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MBGRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="88">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="e#622#630#0" expanded="true" />
               </folding>
@@ -157,11 +148,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="160">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -194,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/SillyGoose/test/MapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/SillyGoose/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/User.java" />
+        <option value="$PROJECT_DIR$/generatorConfig.xml" />
       </list>
     </option>
   </component>
@@ -213,19 +214,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1931" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="-13" />
+    <option name="width" value="1940" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -367,6 +366,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapperTest.testInsert">
+  <component name="RunManager" selected="Application.MBGRun">
     <configuration name="MBGRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SillyGoose.utils.MBGRun" />
       <module name="SillyGoose" />
@@ -420,29 +422,6 @@
       <option name="PACKAGE_NAME" value="com.SillyGoose.test" />
       <option name="MAIN_CLASS_NAME" value="com.SillyGoose.test.MapperTest" />
       <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MapperTest.testSerchUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SillyGoose" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.SillyGoose.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.SillyGoose.test" />
-      <option name="MAIN_CLASS_NAME" value="com.SillyGoose.test.MapperTest" />
-      <option name="METHOD_NAME" value="testSerchUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -585,6 +564,72 @@
         <option name="DEBUG_PORT" value="53147" />
         <option name="LOCAL" value="false" />
       </RunnerSettings>
+    </configuration>
+    <configuration name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/index.jsp" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SillyGoose:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SillyGooseServer" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53149" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
     </configuration>
     <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/index.jsp" />
@@ -791,18 +836,18 @@
     <list>
       <item itemvalue="Tomcat Server.login.jsp" />
       <item itemvalue="Tomcat Server.index.jsp" />
-      <item itemvalue="JUnit.MapperTest.testSerchUser" />
       <item itemvalue="Tomcat Server.login.jsp (1)" />
       <item itemvalue="Application.MBGRun" />
       <item itemvalue="JUnit.MapperTest.testInsert" />
+      <item itemvalue="Tomcat Server.index.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapperTest.testInsert" />
         <item itemvalue="Application.MBGRun" />
+        <item itemvalue="JUnit.MapperTest.testInsert" />
+        <item itemvalue="Tomcat Server.index.jsp (1)" />
         <item itemvalue="Tomcat Server.login.jsp (1)" />
         <item itemvalue="Tomcat Server.index.jsp" />
-        <item itemvalue="JUnit.MapperTest.testSerchUser" />
       </list>
     </recent_temporary>
   </component>
@@ -824,6 +869,8 @@
       <workItem from="1525063435835" duration="79000" />
       <workItem from="1525063748182" duration="9639000" />
       <workItem from="1525163691867" duration="2580000" />
+      <workItem from="1525168165417" duration="166000" />
+      <workItem from="1525168845655" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="Nothing">
       <created>1525063925097</created>
@@ -854,15 +901,22 @@
     <history-entry file="MapperTest_testInsert - 2018.05.01 at 17h 41m 45s.xml">
       <configuration name="MapperTest.testInsert" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MapperTest_testInsert - 2018.05.01 at 17h 52m 02s.xml">
+      <configuration name="MapperTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testInsert - 2018.05.01 at 18h 02m 43s.xml">
+      <configuration name="MapperTest.testInsert" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18243000" />
+    <option name="totallyTimeSpent" value="21289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1931" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.202031" side_tool="true" visible="true" weight="0.45154184" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20469083" side_tool="true" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49733475" weight="0.32824427" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -872,18 +926,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49253732" weight="0.3991276" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49171567" weight="0.39867842" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4869054" weight="0.3270925" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48637092" weight="0.3270925" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.4989339" weight="0.3293348" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4978678" weight="0.33478734" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.797969" weight="0.45154184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7953092" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49947917" weight="0.3212766" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.3293348" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.18920363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19296375" />
       <window_info id="Web" order="2" sideWeight="0.50209206" side_tool="true" weight="0.18070363" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -942,6 +996,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="Nothing" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MBGRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -1005,9 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#622#630#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,9 +1162,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MessageBox.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1227,16 +1331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MessageBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1269,30 +1363,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1261">
-          <caret line="93" column="3" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
-          <folding>
-            <element signature="n#insert#1;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MBGRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#622#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="880">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
@@ -1320,41 +1394,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MessageBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/test/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="49" column="87" lean-forward="true" selection-start-line="49" selection-start-column="87" selection-end-line="49" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="n#sql#4;n#mapper#0;n#!!top" />
+            <element signature="n#sql#5;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" />
+            <element signature="n#delete#3;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" />
+            <element signature="n#update#6;n#mapper#0;n#!!top" />
+            <element signature="n#update#7;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="n#sql#4;n#mapper#0;n#!!top" />
+            <element signature="n#sql#5;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" />
+            <element signature="e#5#68#0" />
+            <element signature="n#delete#3;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" />
+            <element signature="n#update#6;n#mapper#0;n#!!top" />
+            <element signature="n#update#7;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/SillyGoose/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="160">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/test/MapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SillyGoose/utils/MBGRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="88">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#2253#2254#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#622#630#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/SillyGoose/mapping/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980" />
+        <state relative-caret-position="346">
+          <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+        </state>
       </provider>
     </entry>
   </component>
