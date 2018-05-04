@@ -59,6 +59,6 @@ public class MapperTest {
 
     @Test
     public void testInsert(){
-        userMapper.insert(new User(18051072519L,"wjr","wjr.981125","18051072519"));
+        userMapper.insert(new User(180L,"test","test","18051072519"));
     }
 }
