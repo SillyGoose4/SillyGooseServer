@@ -10,7 +10,7 @@ public interface AlbumMapper {
 
     int deleteByExample(AlbumExample example);
 
-    int deleteByPrimaryKey(Long albumId);
+    int deleteByPrimaryKey(Integer albumId);
 
     int insert(Album record);
 
@@ -18,7 +18,7 @@ public interface AlbumMapper {
 
     List<Album> selectByExample(AlbumExample example);
 
-    Album selectByPrimaryKey(Long albumId);
+    Album selectByPrimaryKey(Integer albumId);
 
     int updateByExampleSelective(@Param("record") Album record, @Param("example") AlbumExample example);
 

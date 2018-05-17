@@ -233,6 +233,126 @@ public class PicExample {
             addCriterion("pic_url not between", value1, value2, "picUrl");
             return (Criteria) this;
         }
+
+        public Criteria andPicBelongIsNull() {
+            addCriterion("pic_belong is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongIsNotNull() {
+            addCriterion("pic_belong is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongEqualTo(Integer value) {
+            addCriterion("pic_belong =", value, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongNotEqualTo(Integer value) {
+            addCriterion("pic_belong <>", value, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongGreaterThan(Integer value) {
+            addCriterion("pic_belong >", value, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongGreaterThanOrEqualTo(Integer value) {
+            addCriterion("pic_belong >=", value, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongLessThan(Integer value) {
+            addCriterion("pic_belong <", value, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongLessThanOrEqualTo(Integer value) {
+            addCriterion("pic_belong <=", value, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongIn(List<Integer> values) {
+            addCriterion("pic_belong in", values, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongNotIn(List<Integer> values) {
+            addCriterion("pic_belong not in", values, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongBetween(Integer value1, Integer value2) {
+            addCriterion("pic_belong between", value1, value2, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicBelongNotBetween(Integer value1, Integer value2) {
+            addCriterion("pic_belong not between", value1, value2, "picBelong");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelIsNull() {
+            addCriterion("pic_level is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelIsNotNull() {
+            addCriterion("pic_level is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelEqualTo(Integer value) {
+            addCriterion("pic_level =", value, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelNotEqualTo(Integer value) {
+            addCriterion("pic_level <>", value, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelGreaterThan(Integer value) {
+            addCriterion("pic_level >", value, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelGreaterThanOrEqualTo(Integer value) {
+            addCriterion("pic_level >=", value, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelLessThan(Integer value) {
+            addCriterion("pic_level <", value, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelLessThanOrEqualTo(Integer value) {
+            addCriterion("pic_level <=", value, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelIn(List<Integer> values) {
+            addCriterion("pic_level in", values, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelNotIn(List<Integer> values) {
+            addCriterion("pic_level not in", values, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelBetween(Integer value1, Integer value2) {
+            addCriterion("pic_level between", value1, value2, "picLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicLevelNotBetween(Integer value1, Integer value2) {
+            addCriterion("pic_level not between", value1, value2, "picLevel");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

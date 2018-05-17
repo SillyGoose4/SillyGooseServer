@@ -1,15 +1,15 @@
 package com.SillyGoose.bean;
 
 public class Album {
-    private Long albumId;
+    private Integer albumId;
 
     private Integer picId;
 
-    public Long getAlbumId() {
+    public Integer getAlbumId() {
         return albumId;
     }
 
-    public void setAlbumId(Long albumId) {
+    public void setAlbumId(Integer albumId) {
         this.albumId = albumId;
     }
 

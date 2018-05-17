@@ -20,9 +20,10 @@ public class UserController {
     UserService userService;
 
     @RequestMapping(value = "/getUser",method = RequestMethod.GET)
-    public String getUser(Long id){
+    @ResponseBody
+    public JSONObject getUser(int id){
         User user=userService.getUserById(id);
-        return "list";
+        return JSONObject.parseObject(user.toString());
     }
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
@@ -34,7 +35,8 @@ public class UserController {
         JSONObject jsonObject=JSONObject.parseObject(data);
         if(jsonObject.getString("Value").equals("SIGNUP")){
             User user=new User();
-            user.setUserId(jsonObject.getLong("Phone"));
+            // ID 使用什么？内部自建？
+            //user.setUserId(jsonObject.getInteger("Phone").hashCode());
             user.setUserName(jsonObject.getString("Name"));
             user.setUserPhone(jsonObject.getString("Phone"));
             user.setUserPasswd(jsonObject.getString("Passwd"));
@@ -44,7 +46,7 @@ public class UserController {
                 messageBox = MessageBox.SU_SUCCESS;
             }
         }else if(jsonObject.getString("Value").equals("SIGNIN")){
-            User user = userService.getUserById(jsonObject.getLong("Phone"));
+            User user = userService.getUserById(jsonObject.getInteger("Phone"));
             if(user.getUserPasswd().equals(jsonObject.getString("Passwd"))){
                 messageBox = MessageBox.SI_SUCCESS;
             }else if(user == null){

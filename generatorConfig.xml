@@ -34,10 +34,11 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
         <!-- 指定生成策略 -->
+        <table tableName="tCollecttime" domainObjectName="CollectTime"></table>
 
         <table tableName="tGoose" domainObjectName="Goose"></table>
+        <table tableName="tUser" domainObjectName="User"></table>
         <table tableName="tPic" domainObjectName="Pic"></table>
         <table tableName="tAlbum" domainObjectName="Album"></table>
-
     </context>
 </generatorConfiguration>

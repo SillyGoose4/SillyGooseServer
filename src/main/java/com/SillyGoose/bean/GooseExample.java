@@ -114,52 +114,52 @@ public class GooseExample {
             return (Criteria) this;
         }
 
-        public Criteria andUserIdEqualTo(Long value) {
+        public Criteria andUserIdEqualTo(Integer value) {
             addCriterion("user_id =", value, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdNotEqualTo(Long value) {
+        public Criteria andUserIdNotEqualTo(Integer value) {
             addCriterion("user_id <>", value, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdGreaterThan(Long value) {
+        public Criteria andUserIdGreaterThan(Integer value) {
             addCriterion("user_id >", value, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdGreaterThanOrEqualTo(Long value) {
+        public Criteria andUserIdGreaterThanOrEqualTo(Integer value) {
             addCriterion("user_id >=", value, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdLessThan(Long value) {
+        public Criteria andUserIdLessThan(Integer value) {
             addCriterion("user_id <", value, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdLessThanOrEqualTo(Long value) {
+        public Criteria andUserIdLessThanOrEqualTo(Integer value) {
             addCriterion("user_id <=", value, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdIn(List<Long> values) {
+        public Criteria andUserIdIn(List<Integer> values) {
             addCriterion("user_id in", values, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdNotIn(List<Long> values) {
+        public Criteria andUserIdNotIn(List<Integer> values) {
             addCriterion("user_id not in", values, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdBetween(Long value1, Long value2) {
+        public Criteria andUserIdBetween(Integer value1, Integer value2) {
             addCriterion("user_id between", value1, value2, "userId");
             return (Criteria) this;
         }
 
-        public Criteria andUserIdNotBetween(Long value1, Long value2) {
+        public Criteria andUserIdNotBetween(Integer value1, Integer value2) {
             addCriterion("user_id not between", value1, value2, "userId");
             return (Criteria) this;
         }
@@ -221,6 +221,66 @@ public class GooseExample {
 
         public Criteria andGooseEnyNotBetween(Integer value1, Integer value2) {
             addCriterion("goose_eny not between", value1, value2, "gooseEny");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapIsNull() {
+            addCriterion("goose_map is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapIsNotNull() {
+            addCriterion("goose_map is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapEqualTo(Integer value) {
+            addCriterion("goose_map =", value, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapNotEqualTo(Integer value) {
+            addCriterion("goose_map <>", value, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapGreaterThan(Integer value) {
+            addCriterion("goose_map >", value, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapGreaterThanOrEqualTo(Integer value) {
+            addCriterion("goose_map >=", value, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapLessThan(Integer value) {
+            addCriterion("goose_map <", value, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapLessThanOrEqualTo(Integer value) {
+            addCriterion("goose_map <=", value, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapIn(List<Integer> values) {
+            addCriterion("goose_map in", values, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapNotIn(List<Integer> values) {
+            addCriterion("goose_map not in", values, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapBetween(Integer value1, Integer value2) {
+            addCriterion("goose_map between", value1, value2, "gooseMap");
+            return (Criteria) this;
+        }
+
+        public Criteria andGooseMapNotBetween(Integer value1, Integer value2) {
+            addCriterion("goose_map not between", value1, value2, "gooseMap");
             return (Criteria) this;
         }
 
@@ -344,66 +404,6 @@ public class GooseExample {
             return (Criteria) this;
         }
 
-        public Criteria andGooseWindIsNull() {
-            addCriterion("goose_wind is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindIsNotNull() {
-            addCriterion("goose_wind is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindEqualTo(Integer value) {
-            addCriterion("goose_wind =", value, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindNotEqualTo(Integer value) {
-            addCriterion("goose_wind <>", value, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindGreaterThan(Integer value) {
-            addCriterion("goose_wind >", value, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindGreaterThanOrEqualTo(Integer value) {
-            addCriterion("goose_wind >=", value, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindLessThan(Integer value) {
-            addCriterion("goose_wind <", value, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindLessThanOrEqualTo(Integer value) {
-            addCriterion("goose_wind <=", value, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindIn(List<Integer> values) {
-            addCriterion("goose_wind in", values, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindNotIn(List<Integer> values) {
-            addCriterion("goose_wind not in", values, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindBetween(Integer value1, Integer value2) {
-            addCriterion("goose_wind between", value1, value2, "gooseWind");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseWindNotBetween(Integer value1, Integer value2) {
-            addCriterion("goose_wind not between", value1, value2, "gooseWind");
-            return (Criteria) this;
-        }
-
         public Criteria andGooseStarIsNull() {
             addCriterion("goose_star is null");
             return (Criteria) this;
@@ -464,63 +464,63 @@ public class GooseExample {
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilIsNull() {
-            addCriterion("goose_devil is null");
+        public Criteria andGooseWindIsNull() {
+            addCriterion("goose_wind is null");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilIsNotNull() {
-            addCriterion("goose_devil is not null");
+        public Criteria andGooseWindIsNotNull() {
+            addCriterion("goose_wind is not null");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilEqualTo(Integer value) {
-            addCriterion("goose_devil =", value, "gooseDevil");
+        public Criteria andGooseWindEqualTo(Integer value) {
+            addCriterion("goose_wind =", value, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilNotEqualTo(Integer value) {
-            addCriterion("goose_devil <>", value, "gooseDevil");
+        public Criteria andGooseWindNotEqualTo(Integer value) {
+            addCriterion("goose_wind <>", value, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilGreaterThan(Integer value) {
-            addCriterion("goose_devil >", value, "gooseDevil");
+        public Criteria andGooseWindGreaterThan(Integer value) {
+            addCriterion("goose_wind >", value, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilGreaterThanOrEqualTo(Integer value) {
-            addCriterion("goose_devil >=", value, "gooseDevil");
+        public Criteria andGooseWindGreaterThanOrEqualTo(Integer value) {
+            addCriterion("goose_wind >=", value, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilLessThan(Integer value) {
-            addCriterion("goose_devil <", value, "gooseDevil");
+        public Criteria andGooseWindLessThan(Integer value) {
+            addCriterion("goose_wind <", value, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilLessThanOrEqualTo(Integer value) {
-            addCriterion("goose_devil <=", value, "gooseDevil");
+        public Criteria andGooseWindLessThanOrEqualTo(Integer value) {
+            addCriterion("goose_wind <=", value, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilIn(List<Integer> values) {
-            addCriterion("goose_devil in", values, "gooseDevil");
+        public Criteria andGooseWindIn(List<Integer> values) {
+            addCriterion("goose_wind in", values, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilNotIn(List<Integer> values) {
-            addCriterion("goose_devil not in", values, "gooseDevil");
+        public Criteria andGooseWindNotIn(List<Integer> values) {
+            addCriterion("goose_wind not in", values, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilBetween(Integer value1, Integer value2) {
-            addCriterion("goose_devil between", value1, value2, "gooseDevil");
+        public Criteria andGooseWindBetween(Integer value1, Integer value2) {
+            addCriterion("goose_wind between", value1, value2, "gooseWind");
             return (Criteria) this;
         }
 
-        public Criteria andGooseDevilNotBetween(Integer value1, Integer value2) {
-            addCriterion("goose_devil not between", value1, value2, "gooseDevil");
+        public Criteria andGooseWindNotBetween(Integer value1, Integer value2) {
+            addCriterion("goose_wind not between", value1, value2, "gooseWind");
             return (Criteria) this;
         }
 
@@ -584,123 +584,63 @@ public class GooseExample {
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdIsNull() {
-            addCriterion("album_id is null");
+        public Criteria andGooseDevilIsNull() {
+            addCriterion("goose_devil is null");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdIsNotNull() {
-            addCriterion("album_id is not null");
+        public Criteria andGooseDevilIsNotNull() {
+            addCriterion("goose_devil is not null");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdEqualTo(Long value) {
-            addCriterion("album_id =", value, "albumId");
+        public Criteria andGooseDevilEqualTo(Integer value) {
+            addCriterion("goose_devil =", value, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdNotEqualTo(Long value) {
-            addCriterion("album_id <>", value, "albumId");
+        public Criteria andGooseDevilNotEqualTo(Integer value) {
+            addCriterion("goose_devil <>", value, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdGreaterThan(Long value) {
-            addCriterion("album_id >", value, "albumId");
+        public Criteria andGooseDevilGreaterThan(Integer value) {
+            addCriterion("goose_devil >", value, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdGreaterThanOrEqualTo(Long value) {
-            addCriterion("album_id >=", value, "albumId");
+        public Criteria andGooseDevilGreaterThanOrEqualTo(Integer value) {
+            addCriterion("goose_devil >=", value, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdLessThan(Long value) {
-            addCriterion("album_id <", value, "albumId");
+        public Criteria andGooseDevilLessThan(Integer value) {
+            addCriterion("goose_devil <", value, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdLessThanOrEqualTo(Long value) {
-            addCriterion("album_id <=", value, "albumId");
+        public Criteria andGooseDevilLessThanOrEqualTo(Integer value) {
+            addCriterion("goose_devil <=", value, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdIn(List<Long> values) {
-            addCriterion("album_id in", values, "albumId");
+        public Criteria andGooseDevilIn(List<Integer> values) {
+            addCriterion("goose_devil in", values, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdNotIn(List<Long> values) {
-            addCriterion("album_id not in", values, "albumId");
+        public Criteria andGooseDevilNotIn(List<Integer> values) {
+            addCriterion("goose_devil not in", values, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdBetween(Long value1, Long value2) {
-            addCriterion("album_id between", value1, value2, "albumId");
+        public Criteria andGooseDevilBetween(Integer value1, Integer value2) {
+            addCriterion("goose_devil between", value1, value2, "gooseDevil");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdNotBetween(Long value1, Long value2) {
-            addCriterion("album_id not between", value1, value2, "albumId");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapIsNull() {
-            addCriterion("goose_map is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapIsNotNull() {
-            addCriterion("goose_map is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapEqualTo(Integer value) {
-            addCriterion("goose_map =", value, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapNotEqualTo(Integer value) {
-            addCriterion("goose_map <>", value, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapGreaterThan(Integer value) {
-            addCriterion("goose_map >", value, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapGreaterThanOrEqualTo(Integer value) {
-            addCriterion("goose_map >=", value, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapLessThan(Integer value) {
-            addCriterion("goose_map <", value, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapLessThanOrEqualTo(Integer value) {
-            addCriterion("goose_map <=", value, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapIn(List<Integer> values) {
-            addCriterion("goose_map in", values, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapNotIn(List<Integer> values) {
-            addCriterion("goose_map not in", values, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapBetween(Integer value1, Integer value2) {
-            addCriterion("goose_map between", value1, value2, "gooseMap");
-            return (Criteria) this;
-        }
-
-        public Criteria andGooseMapNotBetween(Integer value1, Integer value2) {
-            addCriterion("goose_map not between", value1, value2, "gooseMap");
+        public Criteria andGooseDevilNotBetween(Integer value1, Integer value2) {
+            addCriterion("goose_devil not between", value1, value2, "gooseDevil");
             return (Criteria) this;
         }
     }
