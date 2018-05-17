@@ -3,7 +3,7 @@ package com.SillyGoose.bean;
 import java.util.Date;
 
 public class User {
-    private Long userId;
+    private Integer userId;
 
     private String userName;
 
@@ -13,11 +13,11 @@ public class User {
 
     private Date createtime;
 
-    public Long getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
@@ -52,7 +52,7 @@ public class User {
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
     }
-    public User(Long userId,
+    public User(int userId,
                 String userName,
                 String userPasswd,
                 String userPhone){

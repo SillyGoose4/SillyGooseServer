@@ -10,7 +10,7 @@ public interface GooseMapper {
 
     int deleteByExample(GooseExample example);
 
-    int deleteByPrimaryKey(Long userId);
+    int deleteByPrimaryKey(Integer userId);
 
     int insert(Goose record);
 
@@ -18,7 +18,7 @@ public interface GooseMapper {
 
     List<Goose> selectByExample(GooseExample example);
 
-    Goose selectByPrimaryKey(Long userId);
+    Goose selectByPrimaryKey(Integer userId);
 
     int updateByExampleSelective(@Param("record") Goose record, @Param("example") GooseExample example);
 

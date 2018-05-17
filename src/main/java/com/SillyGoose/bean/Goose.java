@@ -1,31 +1,51 @@
 package com.SillyGoose.bean;
 
 public class Goose {
-    private Long userId;
+    public Goose(){
+
+    }
+    public Goose(int userId,
+                 int gooseDevil,
+                 int gooseSnow,
+                 int gooseEny,
+                 int gooseMap,
+                 int gooseRain,
+                 int gooseSun,
+                 int gooseWind,
+                 int gooseStar){
+        this.gooseDevil = gooseDevil;
+        this.gooseEny = gooseEny;
+        this.gooseMap = gooseMap;
+        this.gooseRain = gooseRain;
+        this.gooseSnow = gooseSnow;
+        this.gooseStar = gooseStar;
+        this.gooseWind = gooseWind;
+        this.userId = userId;
+        this.gooseSun = gooseSun;
+    }
+    private Integer userId;
 
     private Integer gooseEny;
+
+    private Integer gooseMap;
 
     private Integer gooseSun;
 
     private Integer gooseSnow;
 
-    private Integer gooseWind;
-
     private Integer gooseStar;
 
-    private Integer gooseDevil;
+    private Integer gooseWind;
 
     private Integer gooseRain;
 
-    private Long albumId;
+    private Integer gooseDevil;
 
-    private Integer gooseMap;
-
-    public Long getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
@@ -35,6 +55,14 @@ public class Goose {
 
     public void setGooseEny(Integer gooseEny) {
         this.gooseEny = gooseEny;
+    }
+
+    public Integer getGooseMap() {
+        return gooseMap;
+    }
+
+    public void setGooseMap(Integer gooseMap) {
+        this.gooseMap = gooseMap;
     }
 
     public Integer getGooseSun() {
@@ -53,14 +81,6 @@ public class Goose {
         this.gooseSnow = gooseSnow;
     }
 
-    public Integer getGooseWind() {
-        return gooseWind;
-    }
-
-    public void setGooseWind(Integer gooseWind) {
-        this.gooseWind = gooseWind;
-    }
-
     public Integer getGooseStar() {
         return gooseStar;
     }
@@ -69,12 +89,12 @@ public class Goose {
         this.gooseStar = gooseStar;
     }
 
-    public Integer getGooseDevil() {
-        return gooseDevil;
+    public Integer getGooseWind() {
+        return gooseWind;
     }
 
-    public void setGooseDevil(Integer gooseDevil) {
-        this.gooseDevil = gooseDevil;
+    public void setGooseWind(Integer gooseWind) {
+        this.gooseWind = gooseWind;
     }
 
     public Integer getGooseRain() {
@@ -85,19 +105,11 @@ public class Goose {
         this.gooseRain = gooseRain;
     }
 
-    public Long getAlbumId() {
-        return albumId;
+    public Integer getGooseDevil() {
+        return gooseDevil;
     }
 
-    public void setAlbumId(Long albumId) {
-        this.albumId = albumId;
-    }
-
-    public Integer getGooseMap() {
-        return gooseMap;
-    }
-
-    public void setGooseMap(Integer gooseMap) {
-        this.gooseMap = gooseMap;
+    public void setGooseDevil(Integer gooseDevil) {
+        this.gooseDevil = gooseDevil;
     }
 }

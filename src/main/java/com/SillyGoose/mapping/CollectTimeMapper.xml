@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.SillyGoose.dao.CollectTimeMapper">
+  <resultMap id="BaseResultMap" type="com.SillyGoose.bean.CollectTime">
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="sun_lasttime" jdbcType="TIMESTAMP" property="sunLasttime" />
+    <result column="snow_lasttime" jdbcType="TIMESTAMP" property="snowLasttime" />
+    <result column="rain_lasttime" jdbcType="TIMESTAMP" property="rainLasttime" />
+    <result column="devil_lasttime" jdbcType="TIMESTAMP" property="devilLasttime" />
+    <result column="wind_lasttime" jdbcType="TIMESTAMP" property="windLasttime" />
+    <result column="star_lasttime" jdbcType="TIMESTAMP" property="starLasttime" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    user_id, sun_lasttime, snow_lasttime, rain_lasttime, devil_lasttime, wind_lasttime, 
+    star_lasttime
+  </sql>
+  <select id="selectByExample" parameterType="com.SillyGoose.bean.CollectTimeExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tcollecttime
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.SillyGoose.bean.CollectTimeExample">
+    delete from tcollecttime
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.SillyGoose.bean.CollectTime">
+    insert into tcollecttime (user_id)
+    values (#{userId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.SillyGoose.bean.CollectTime">
+    insert into tcollecttime
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="sunLasttime != null">
+        sun_lasttime,
+      </if>
+      <if test="snowLasttime != null">
+        snow_lasttime,
+      </if>
+      <if test="rainLasttime != null">
+        rain_lasttime,
+      </if>
+      <if test="devilLasttime != null">
+        devil_lasttime,
+      </if>
+      <if test="windLasttime != null">
+        wind_lasttime,
+      </if>
+      <if test="starLasttime != null">
+        star_lasttime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="sunLasttime != null">
+        #{sunLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="snowLasttime != null">
+        #{snowLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="rainLasttime != null">
+        #{rainLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="devilLasttime != null">
+        #{devilLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="windLasttime != null">
+        #{windLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="starLasttime != null">
+        #{starLasttime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.SillyGoose.bean.CollectTimeExample" resultType="java.lang.Long">
+    select count(*) from tcollecttime
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update tcollecttime
+    <set>
+      <if test="record.userId != null">
+        user_id = #{record.userId,jdbcType=INTEGER},
+      </if>
+      <if test="record.sunLasttime != null">
+        sun_lasttime = #{record.sunLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.snowLasttime != null">
+        snow_lasttime = #{record.snowLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.rainLasttime != null">
+        rain_lasttime = #{record.rainLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.devilLasttime != null">
+        devil_lasttime = #{record.devilLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.windLasttime != null">
+        wind_lasttime = #{record.windLasttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.starLasttime != null">
+        star_lasttime = #{record.starLasttime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update tcollecttime
+    set user_id = #{record.userId,jdbcType=INTEGER},
+      sun_lasttime = #{record.sunLasttime,jdbcType=TIMESTAMP},
+      snow_lasttime = #{record.snowLasttime,jdbcType=TIMESTAMP},
+      rain_lasttime = #{record.rainLasttime,jdbcType=TIMESTAMP},
+      devil_lasttime = #{record.devilLasttime,jdbcType=TIMESTAMP},
+      wind_lasttime = #{record.windLasttime,jdbcType=TIMESTAMP},
+      star_lasttime = #{record.starLasttime,jdbcType=TIMESTAMP}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

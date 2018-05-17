@@ -114,52 +114,52 @@ public class AlbumExample {
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdEqualTo(Long value) {
+        public Criteria andAlbumIdEqualTo(Integer value) {
             addCriterion("album_id =", value, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdNotEqualTo(Long value) {
+        public Criteria andAlbumIdNotEqualTo(Integer value) {
             addCriterion("album_id <>", value, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdGreaterThan(Long value) {
+        public Criteria andAlbumIdGreaterThan(Integer value) {
             addCriterion("album_id >", value, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdGreaterThanOrEqualTo(Long value) {
+        public Criteria andAlbumIdGreaterThanOrEqualTo(Integer value) {
             addCriterion("album_id >=", value, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdLessThan(Long value) {
+        public Criteria andAlbumIdLessThan(Integer value) {
             addCriterion("album_id <", value, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdLessThanOrEqualTo(Long value) {
+        public Criteria andAlbumIdLessThanOrEqualTo(Integer value) {
             addCriterion("album_id <=", value, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdIn(List<Long> values) {
+        public Criteria andAlbumIdIn(List<Integer> values) {
             addCriterion("album_id in", values, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdNotIn(List<Long> values) {
+        public Criteria andAlbumIdNotIn(List<Integer> values) {
             addCriterion("album_id not in", values, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdBetween(Long value1, Long value2) {
+        public Criteria andAlbumIdBetween(Integer value1, Integer value2) {
             addCriterion("album_id between", value1, value2, "albumId");
             return (Criteria) this;
         }
 
-        public Criteria andAlbumIdNotBetween(Long value1, Long value2) {
+        public Criteria andAlbumIdNotBetween(Integer value1, Integer value2) {
             addCriterion("album_id not between", value1, value2, "albumId");
             return (Criteria) this;
         }
