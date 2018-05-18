@@ -64,6 +64,9 @@ public class User {
     public User(){
 
     }
+    public User(int userId){
+        this.userId = userId;
+    }
 
     @Override
     public String toString() {

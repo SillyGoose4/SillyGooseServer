@@ -38,10 +38,6 @@ public class MapperTest {
     }
 
     @Test
-    public void testUser(){
-        System.out.println(userMapper);
-    }
-    @Test
     public void testSerchUser(){
         try {
             MvcResult result;
@@ -57,8 +53,4 @@ public class MapperTest {
         }
     }
 
-    @Test
-    public void testInsert(){
-        userMapper.insert(new User(180L,"test","test","18051072519"));
-    }
 }

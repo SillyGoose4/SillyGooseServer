@@ -10,37 +10,18 @@ import com.SillyGoose.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("UserService")
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper userMapper;
 
-    @Autowired
-    private GooseMapper gooseMapper;
-
-    @Autowired
-    private AlbumMapper albumMapper;
-
-    @Autowired
-    private CollectTimeMapper collectTimeMapper;
-
-    /**
-     * 以ID为索引查询数据
-     * @param id 索引
-     * @return
-     */
-    public User getUserById(int id) {
-
-        return userMapper.selectByPrimaryKey(id);
-    }
-
-    public int insert(User record) {
-        return userMapper.insert(record);
-    }
 
     public boolean createUser(User record) {
-        userMapper.insert()
-        return true;
+        if(userMapper.insert(record) != 0) {
+            return true;
+        }else{
+            return false;
+        }
     }
 }

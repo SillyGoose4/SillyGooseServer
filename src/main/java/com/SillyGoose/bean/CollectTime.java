@@ -3,6 +3,23 @@ package com.SillyGoose.bean;
 import java.util.Date;
 
 public class CollectTime {
+    public CollectTime(){
+
+    }
+
+    public CollectTime(int userId){
+        this.userId = userId;
+    }
+
+    public void InitTime(Date currentDate){
+        this.devilLasttime = currentDate;
+        this.rainLasttime = currentDate;
+        this.snowLasttime = currentDate;
+        this.starLasttime = currentDate;
+        this.windLasttime = currentDate;
+        this.sunLasttime = currentDate;
+    }
+
     private Integer userId;
 
     private Date sunLasttime;

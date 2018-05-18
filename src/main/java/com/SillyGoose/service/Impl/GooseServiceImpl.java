@@ -6,7 +6,7 @@ import com.SillyGoose.service.GooseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("GooseService")
 public class GooseServiceImpl implements GooseService {
 
     @Autowired

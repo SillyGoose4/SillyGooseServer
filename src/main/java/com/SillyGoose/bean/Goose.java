@@ -23,6 +23,22 @@ public class Goose {
         this.userId = userId;
         this.gooseSun = gooseSun;
     }
+
+    public Goose(int userId){
+        this.userId = userId;
+    }
+
+    public void InitGoose(){
+        this.gooseDevil = 0;
+        this.gooseEny = 0;
+        this.gooseMap = 0;
+        this.gooseRain = 0;
+        this.gooseSnow = 0;
+        this.gooseStar = 0;
+        this.gooseWind = 0;
+        this.gooseSun = 0;
+    }
+
     private Integer userId;
 
     private Integer gooseEny;
